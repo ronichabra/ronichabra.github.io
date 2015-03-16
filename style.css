@@ -91,8 +91,8 @@ html {
 
 @media (max-width: 800px) {
     html{
-        overflow-x: scroll;
-        overflow-y: hidden;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
     #gallery, #movies {
           transform: scale(0.4,0.4);
