@@ -5,6 +5,12 @@ html {
     background: url(img/stars.gif) !important;
     background-repeat: repeat !important;
 }
+#BG1 > h4{
+    float:left;
+    display:inline;
+    margin-top:5%;
+    margin-left:5%;
+}
 #gallery {
     width: 800px;
     height: 500px;
