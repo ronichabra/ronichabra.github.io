@@ -1,5 +1,5 @@
 html {
-    /*  overflow: hidden;*/
+     overflow: hidden;
 }
 #BG1, #BG2, #BG3, #BG4 {
     background: url(img/stars.gif) !important;
@@ -90,6 +90,10 @@ html {
 }
 
 @media (max-width: 800px) {
+    html{
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
     #gallery, #movies {
           transform: scale(0.4,0.4);
   margin-left: -75% !important;
