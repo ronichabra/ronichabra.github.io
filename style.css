@@ -1,6 +1,8 @@
-
-#BG1,#BG2,#BG3,#BG4{
-     background: url(img/stars.gif) !important;
+html {
+    /*  overflow: hidden;*/
+}
+#BG1, #BG2, #BG3, #BG4 {
+    background: url(img/stars.gif) !important;
     background-repeat: repeat !important;
 }
 #gallery {
@@ -16,7 +18,7 @@
 #movies {
     width: 1000px;
     height: 500px;
-      margin-left: 8% !important;
+    margin-left: 8% !important;
 }
 #moviesTable {
     margin: 5% 20%;
@@ -28,7 +30,7 @@
     width: 680px;
     height: 498px;
     display: block;
-      margin-left: 15%;
+    margin-left: 15%;
 }
 #poker:hover {
     background-position: right;
@@ -85,4 +87,15 @@
 }
 #super:hover {
     background-position: right;
+}
+
+@media (max-width: 800px) {
+    #gallery, #movies {
+        transform: scale(0.3,0.3);
+        margin-left: -89% !important;
+        float: left;
+    }
+    #movies {
+        margin-left: -122% !important;
+    }
 }
