@@ -9,27 +9,27 @@ $(document).ready(function() {
 	
 	//gallery
 	$(document).on('click', '#3D-GalleryJQ', function() {
-		$("html, body").animate({scrollTop: $('#galleryBG').offset().top }, 2000, function() {
+		$("html, body").animate({scrollTop: $('#BG1').offset().top }, 2000, function() {
 			// Animation complete.
 		});
 	});
 	
 	//movies
 	$(document).on('click', '#moviesJQ', function() {
-		$("html, body").animate({scrollTop:$('#moviesBG').offset().top  }, 2000, function() {
+		$("html, body").animate({scrollTop:$('#BG2').offset().top  }, 2000, function() {
 			// Animation complete.
 		});
 	});
 	
 	//unity
 	$(document).on('click', '#UnityJQ', function() {
-		$("html, body").animate({scrollTop: $('#unityBG').offset().top  }, 2000, function() {
+		$("html, body").animate({scrollTop: $('#BG3').offset().top  }, 2000, function() {
 			// Animation complete.
 		});
 	});
 	//web
 	$(document).on('click', '#webJQ', function() {
-		$("html, body").animate({scrollTop: $('#webBG').offset().top }, 2000, function() {
+		$("html, body").animate({scrollTop: $('#BG4').offset().top }, 2000, function() {
 			// Animation complete.
 		});
 	});

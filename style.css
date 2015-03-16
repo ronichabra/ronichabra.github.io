@@ -1,18 +1,7 @@
-#galleryBG {
-    background: url(img/movies.jpg) no-repeat center center;
-    background-size: cover;
-}
-#moviesBG {
-    background: url(img/gallery-page-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-#unityBG {
-    background: url(img/pokerPageBG.jpg) no-repeat center center;
-    background-size: cover;
-}
-#webBG {
-    background: url(img/webpage.jpg) no-repeat center center;
-    background-size: cover;
+
+#BG1,#BG2,#BG3,#BG4{
+     background: url(img/stars.gif) !important;
+    background-repeat: repeat !important;
 }
 #gallery {
     width: 800px;
@@ -31,12 +20,6 @@
 }
 #moviesTable {
     margin: 5% 20%;
-}
-#unity {
-    background-image: url("img/pokerPageBG.jpg");
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
 }
 
 #poker {
@@ -67,12 +50,6 @@
     margin-top: 15%;
     margin-left: 27%;
     display: block;
-}
-#web {
-
-    background-image: url("img/webpage.jpg");
-    height: 100%;
-    background-repeat: no-repeat;
 }
 #gan {
     margin-top: 15%;
