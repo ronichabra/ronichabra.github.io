@@ -1,0 +1,111 @@
+#galleryBG {
+    background: url(img/movies.jpg) no-repeat center center;
+    background-size: cover;
+}
+#moviesBG {
+    background: url(img/gallery-page-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+#unityBG {
+    background: url(img/pokerPageBG.jpg) no-repeat center center;
+    background-size: cover;
+}
+#webBG {
+    background: url(img/webpage.jpg) no-repeat center center;
+    background-size: cover;
+}
+#gallery {
+    width: 800px;
+    height: 500px;
+    margin-left: 15% !important;
+    /* margin: 15% 25%; */
+}
+.headline {
+    font-size: 60px;
+    margin: 0 28%;
+}
+#movies {
+    width: 1000px;
+    height: 500px;
+      margin-left: 8% !important;
+}
+#moviesTable {
+    margin: 5% 20%;
+}
+#unity {
+    background-image: url("img/pokerPageBG.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#poker {
+    background-image: url("img/poker3.png");
+    background-repeat: no-repeat;
+    width: 680px;
+    height: 498px;
+    display: block;
+      margin-left: 15%;
+}
+#poker:hover {
+    background-position: right;
+}
+#pokerHead {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 2em;
+    padding: 0px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+#pokerHead:hover {
+    color: #00c0ff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,3);
+}
+#unity > h1 {
+    margin-top: 15%;
+    margin-left: 27%;
+    display: block;
+}
+#web {
+
+    background-image: url("img/webpage.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#gan {
+    margin-top: 15%;
+    background-image: url("img/kindergaurden.png");
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 391px;
+    display: inline-block;
+}
+#gan:hover {
+    background-position: right;
+}
+
+#ballroom {
+
+    background-image: url("img/ballroom.png");
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 233px;
+    display: inline-block;
+}
+#ballroom:hover {
+    background-position: right;
+}
+
+#super {
+    margin-left: 5%;
+    background-image: url("img/super.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 88px;
+    display: block;
+}
+#super:hover {
+    background-position: right;
+}
