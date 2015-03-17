@@ -5,12 +5,6 @@ html {
     background: url(img/stars.gif) !important;
     background-repeat: repeat !important;
 }
-#BG1 > h4{
-    float:left;
-    display:inline;
-    margin-top:5%;
-    margin-left:5%;
-}
 #gallery {
     width: 800px;
     height: 500px;
@@ -36,13 +30,13 @@ html {
     width: 680px;
     height: 498px;
     display: block;
-    margin-left: 15%;
+    margin-left: 16%;
 }
 #poker:hover {
     background-position: right;
 }
 #pokerHead {
-    margin: 0;
+    margin-left: 15px;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 2em;
     padding: 0px;
@@ -60,7 +54,6 @@ html {
     display: block;
 }
 #gan {
-    margin-top: 15%;
     background-image: url("img/kindergaurden.png");
     background-repeat: no-repeat;
     width: 400px;
@@ -84,7 +77,7 @@ html {
 }
 
 #super {
-    margin-left: 5%;
+    margin-left: 1%;
     background-image: url("img/super.png");
     background-repeat: no-repeat;
     width: 900px;
@@ -94,6 +87,20 @@ html {
 #super:hover {
     background-position: right;
 }
+
+.EXP {
+    margin-top: 15%;
+    margin-left: 8%;
+}
+#profile {
+    display: inline;
+    float: left;
+}
+.topnav {
+    display: inline;
+    float: right;
+}
+
 
 @media (max-width: 800px) {
     html{
