@@ -60,36 +60,51 @@ html {
 #gan {
     background-image: url("img/kindergaurden.png");
     background-repeat: no-repeat;
-    width: 400px;
+    width: 250px;
     height: 391px;
+        float: left;
     display: inline-block;
 }
-#gan:hover {
-    background-position: right;
+#gan:hover { opacity:0.5;
 }
 
 #ballroom {
 
     background-image: url("img/ballroom.png");
     background-repeat: no-repeat;
-    width: 500px;
+    width: 250px;
+        float: left;
     height: 233px;
     display: inline-block;
 }
 #ballroom:hover {
-    background-position: right;
+ opacity:0.5;
 }
 
 #super {
     margin-left: 1%;
     background-image: url("img/super.png");
     background-repeat: no-repeat;
-    width: 900px;
+    width: 500px;
+    clear: both;
     height: 88px;
     display: block;
 }
 #super:hover {
-    background-position: right;
+     opacity:0.5;
+}
+
+#moments{
+    margin-left: 1%;
+    background-image: url("img/moments.png");
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 391px;
+    display: block;
+        float: left;
+}
+#moments:hover {
+    opacity:0.5;
 }
 
 .EXP {
