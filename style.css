@@ -1,140 +1,112 @@
-html {
-    overflow: hidden;
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+	{
+	color: #00C0FF;
 }
 
-    .navbar-right{
-          float: left!important;
-    }
-#BG1, #BG2, #BG3, #BG4 {
-    background: url(img/stars.gif) !important;
-    background-repeat: repeat !important;
-}
-#gallery {
-    width: 800px;
-    height: 500px;
-    margin-left: 15% !important;
-    /* margin: 15% 25%; */
-}
-.headline {
-    font-size: 60px;
-    margin: 0 28%;
-}
-#movies {
-    width: 1000px;
-    height: 500px;
-    margin-left: 8% !important;
-}
-#moviesTable {
-    margin: 5% 20%;
+.navbar-default .navbar-nav>li>a {
+	font-weight: bold;
 }
 
-#poker {
-    background-image: url("img/poker3.png");
-    background-repeat: no-repeat;
-    width: 680px;
-    height: 498px;
-    display: block;
-    margin-left: 16%;
+div#bs-example-navbar-collapse-1 {
+	float: left;
 }
-#poker:hover {
-    background-position: right;
+
+img#profile {
+	float: left;
 }
-#pokerHead {
-    margin-left: 15px;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 2em;
-    padding: 0px;
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: white;
+
+.intro-header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(img/intro-bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 100%;
 }
-#pokerHead:hover {
-    color: #00c0ff;
-    text-shadow: 2px 2px 3px rgba(0,0,0,3);
+
+.intro-header2 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: #f8f8f8;
+	background: url(img/bg-flip.png) no-repeat center center;
+	background-size: cover;
+	height: 100%;
 }
-#unity > h1 {
-    margin-top: 15%;
-    margin-left: 27%;
-    display: block;
+
+body, html {
+	width: 100%;
+	height: 100%;
 }
+
+.intro-message>h1 {
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 5em;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+.network-name {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+.intro-message>h3 {
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-divider {
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+	padding: 25px 0;
+	color: #f8f8f8;
+	background: url(img/banner-bg.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+
 #gan {
-    background-image: url("img/kindergaurden.png");
-    background-repeat: no-repeat;
-    width: 250px;
-    height: 391px;
-        float: left;
-    display: inline-block;
-}
-#gan:hover { opacity:0.5;
+	background-image: url("img/parpar.png");
+	background-repeat: no-repeat;
+	width: 357px; height : 614px;
+	float: left;
+	display: inline-block;
+	height: 614px;
 }
 
 #ballroom {
-
-    background-image: url("img/ballroom.png");
-    background-repeat: no-repeat;
-    width: 250px;
-        float: left;
-    height: 233px;
-    display: inline-block;
-}
-#ballroom:hover {
- opacity:0.5;
+	background-image: url("img/ballroom.png");
+	background-repeat: no-repeat;
+	width: 357px;
+	height: 614px;
+	    margin-left: 1%;
+	float: left;
+	display: inline-block;
 }
 
 #super {
-    margin-left: 1%;
-    background-image: url("img/super.png");
-    background-repeat: no-repeat;
-    width: 500px;
-    clear: both;
-    height: 88px;
-    display: block;
-}
-#super:hover {
-     opacity:0.5;
-}
-
-#moments{
-    margin-left: 1%;
-    background-image: url("img/moments.png");
-    background-repeat: no-repeat;
-    width: 220px;
-    height: 391px;
-    display: block;
-        float: left;
-}
-#moments:hover {
-    opacity:0.5;
-}
-
-.EXP {
-    margin-top: 15%;
-    margin-left: 8%;
-}
-#profile {
-    display: inline;
-    float: left;
-}
-.topnav {
-    display: inline;
-    float: left;
-}
-
-@media (max-width: 767px) {
-    html {
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }
-    #gallery, #movies {
-        transform: scale(0.4,0.4);
-        margin-left: -75% !important;
-        float: left;
-    }
-    #movies {
-        margin-left: -100% !important;
-    }
-}
-
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-      color: #00C0FF;
+	margin-left: 1%;
+	background-image: url("img/super.png");
+	background-repeat: no-repeat;
+	width: 357px;
+	height: 614px;
+	float: left;
+	display: block;
 }
