@@ -81,32 +81,85 @@ body, h1, h2, h3, h4, h5, h6 {
 	background-size: cover;
 }
 
+.webImages {
+	background-repeat: no-repeat;
+	width: 160px;
+	height: 256px;
+	display: inline-block;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+
+#moments{
+	background-image: url("img/moments.PNG");
+}
 
 #gan {
 	background-image: url("img/parpar.PNG");
-	background-repeat: no-repeat;
-	width: 357px; height : 614px;
-	float: left;
-	display: inline-block;
-	height: 614px;
 }
 
 #ballroom {
 	background-image: url("img/ballroom.png");
-	background-repeat: no-repeat;
-	width: 357px;
-	height: 614px;
-	    margin-left: 1%;
-	float: left;
-	display: inline-block;
 }
 
 #super {
-	margin-left: 1%;
 	background-image: url("img/super.png");
-	background-repeat: no-repeat;
-	width: 357px;
-	height: 614px;
-	float: left;
-	display: block;
+	clear: right;
 }
+
+#tollmans {
+	background-image: url("img/tollmans.png");
+}
+
+.webWrapper {
+	width: 100%;
+}
+
+/*				FLIP CARDS			*/
+.flipcard {
+	position: relative;
+	width: 160px;
+	height: 256px;
+	    display: inline-block;
+	perspective: 500px;
+	margin-left: 1%;
+}
+
+.flipcard.v:hover .front, .flipcard.v.flip .front {
+	transform: rotateX(180deg);
+}
+
+.flipcard.v:hover .back, .flipcard.v.flip .back {
+	transform: rotateX(0deg);
+}
+
+.flipcard.v .back {
+	transform: rotateX(-180deg);
+}
+
+.flipcard.h:hover .front, .flipcard.h.flip .front {
+	transform: rotateY(180deg);
+}
+
+.flipcard.h:hover .back, .flipcard.h.flip .back {
+	transform: rotateY(0deg);
+}
+
+.flipcard.h .back {
+	transform: rotateY(-180deg);
+}
+
+.flipcard .front, .flipcard .back {
+	position: absolute;
+	top: 0px;
+	width: 160px;
+	height: 256px;
+	box-sizing: border-box;
+	border-radius:10px;
+	transition: all 0.33s ease-in;
+	color: white;
+	padding: 10px;
+	backface-visibility: hidden;
+}
+
+/*				FLIP CARDS ENDS			*/
