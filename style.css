@@ -91,7 +91,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #moments{
-	background-image: url("img/moments.PNG");
+	background-image: url("img/moments.png");
 }
 
 #gan {
@@ -108,7 +108,7 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #tollmans {
-	background-image: url("img/tollmans.png");
+	background-image: url("img/tollmans.PNG");
 }
 
 .webWrapper {
