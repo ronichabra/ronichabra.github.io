@@ -113,6 +113,12 @@ body, h1, h2, h3, h4, h5, h6 {
 #matcher {
 	background-image: url("img/matcher.PNG");
 }
+#barber {
+	background-image: url("img/barber.PNG");
+}
+#cvmatcher {
+	background-image: url("img/cvmatcher.PNG");
+}
 
 .webWrapper {
 	width: 100%;
